@@ -30,7 +30,7 @@ export const Testimonial = () => {
   
 
   return (
-    <div className='testimonial'>
+    <div className='testimonial' id='testimonial'>
         <img src={next_icon} alt="" className='next-btn' onClick={sildeForward}/>
         <img src={back_icon} alt="" className='back-btn' onClick={sildeBackward}/>
         <div className="slider">

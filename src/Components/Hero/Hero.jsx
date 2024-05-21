@@ -4,7 +4,7 @@ import dark_arrow from '../../assets/dark-arrow.png'
 
 export const Hero = () => {
   return (
-    <div className='hero container' >
+    <div className='hero container' id='hero'>
         <div className="hero-text">
             <h1>We ensure better education for a better world</h1>
             <p>Our cutting-edge curriculum is designrd to empower students with
