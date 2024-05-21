@@ -27,7 +27,7 @@ export const Navbar = () => {
         <li><Link to="about" offset ={-130}   smooth={true} duration={500}>About Us</Link></li>
         <li><Link to="campus" offset ={-260}   smooth={true} duration={500}>Campus</Link></li>
         <li><Link to="testimonial" offset ={-260}   smooth={true} duration={500}>Testimonial</Link></li>
-        <li> <button className='btn'>Contact Us</button> </li> 
+        <li> <Link to="contact" offset ={-260}   smooth={true} duration={500}><button className='btn'>Contact Us</button></Link> </li> 
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />
     </nav>
